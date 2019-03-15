@@ -12,7 +12,7 @@ class App extends Component {
       <Router>
         <div className='App'>
           <header className='App-header'>
-            <h1> This is our cool header! </h1>
+            <h1> Welcome to Zesty! </h1>
           </header>
           <Route exact path='/' component={Block}/>
         </div>

@@ -21,15 +21,33 @@ class OrchardGrid extends Component {
 
     return (
       <div>
-        <p>This is the orchard grid. It shows {this.props.displayVal}</p>
+        <p style={{ color: 'white' }}>
+          This is the orchard grid. Each rectangle represents a bay. The
+          brighter the colour, the greater the {toString[this.props.displayVal]}{' '}
+          per bay.
+        </p>
         <div className='orchardGrid' style={orchardGridStyle}>
           {this.state.gridData.map(block => {
-            return <OrchardGridSquare block={block} />
+            return (
+              <OrchardGridSquare
+                key={block.bay_name}
+                block={block}
+                displayVal={this.props.displayVal}
+                max={this.props.max}
+                min={this.props.min}
+              />
+            )
           })}
         </div>
       </div>
     )
   }
+}
+
+const toString = {
+  fruit_quantity: 'the quantity of kiwifruit',
+  dry_matter_percentage: 'the dry matter percentage',
+  average_size: 'the average size'
 }
 
 export default OrchardGrid

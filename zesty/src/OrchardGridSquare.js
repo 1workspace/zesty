@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 
 class OrchardGridSquare extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {}
-  }
-
   render () {
-    const redIndex = Math.round((this.props.block.fruit_quantity - 500) / 5)
-    const bgString = `rgb(${redIndex}%,0%,0%)`
+    const { displayVal, min, max } = this.props
+
+    const saturationPercentage = Math.round(
+      ((this.props.block[displayVal] - min) / (max - min)) * 100
+    )
+
+    const bgString = setBgString(displayVal, saturationPercentage)
+
     const OrchardGridSquareStyle = {
       display: 'inline-block',
       width: '100%',
@@ -16,6 +17,19 @@ class OrchardGridSquare extends Component {
       background: bgString
     }
     return <span style={OrchardGridSquareStyle} />
+  }
+}
+
+function setBgString (displayVal, saturationPercentage) {
+  switch (displayVal) {
+    case 'fruit_quantity':
+      return `rgb(${saturationPercentage}%, 0%, 0%)`
+    case 'dry_matter_percentage':
+      return `rgb(0%, ${saturationPercentage}%, 0%)`
+    case 'average_size':
+      return `rgb(0%, 0%, ${saturationPercentage}%)`
+    default:
+        return `rgb(${saturationPercentage}%, 0%, 0%)`
   }
 }
 
