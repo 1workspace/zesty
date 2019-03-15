@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
+import OrchardGridSquare from './OrchardGridSquare'
+
 import { blocks } from './dummydata.json'
+
 class OrchardGrid extends Component {
   constructor (props) {
     super(props)
@@ -10,12 +13,18 @@ class OrchardGrid extends Component {
     }
   }
   render () {
+    const orchardGridStyle = {
+      background: 'pink',
+      display: 'grid',
+      gridTemplateColumns: `repeat(${this.state.gridX}, 1fr)`
+    }
+
     return (
       <div>
         <p>This is the orchard grid. It shows {this.props.displayVal}</p>
-        <div className='orchardGrid'>
+        <div className='orchardGrid' style={orchardGridStyle}>
           {this.state.gridData.map(block => {
-            return <p> {block.bay_name} </p>
+            return <OrchardGridSquare block={block} />
           })}
         </div>
       </div>
