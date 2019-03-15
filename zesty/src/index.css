@@ -13,3 +13,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.bayId{
+	padding: 10px 10px;
+}
+
+.bay-action {
+	margin-top: 70px;
+}
+
+.link-profile {
+	color: white;
+}
+
+.description {
+	color: white;
+}
+
+.zion-circle-avatar-lg {
+    max-width: 130px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: white no-repeat;
+}

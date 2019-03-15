@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './App.css'
 import Block from './Block'
+import Profile from './Profile'
 
 class App extends Component {
 
@@ -15,8 +16,11 @@ class App extends Component {
             <h1> Welcome to Zesty! </h1>
           </header>
           <Route exact path='/' component={Block}/>
+		  <Route exact path='/profile' component={Profile}/>
         </div>
       </Router>
+		
+
     )
   }
 }
