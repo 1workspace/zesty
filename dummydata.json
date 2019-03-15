@@ -1,0 +1,220 @@
+{
+    "blocks": [
+        {
+            "id": 0,
+            "bay_name": "Bay 0:0",
+            "x": 0,
+            "y": 0,
+            "fruit_quantity": 684,
+            "dry_matter_percentage": 69,
+            "average_size": 32
+        },
+        {
+            "id": 1,
+            "bay_name": "Bay 0:1",
+            "x": 0,
+            "y": 1,
+            "fruit_quantity": 689,
+            "dry_matter_percentage": 42,
+            "average_size": 38
+        },
+        {
+            "id": 2,
+            "bay_name": "Bay 0:2",
+            "x": 0,
+            "y": 2,
+            "fruit_quantity": 767,
+            "dry_matter_percentage": 80,
+            "average_size": 22
+        },
+        {
+            "id": 3,
+            "bay_name": "Bay 0:3",
+            "x": 0,
+            "y": 3,
+            "fruit_quantity": 772,
+            "dry_matter_percentage": 40,
+            "average_size": 33
+        },
+        {
+            "id": 4,
+            "bay_name": "Bay 0:4",
+            "x": 0,
+            "y": 4,
+            "fruit_quantity": 685,
+            "dry_matter_percentage": 49,
+            "average_size": 34
+        },
+        {
+            "id": 5,
+            "bay_name": "Bay 0:5",
+            "x": 0,
+            "y": 5,
+            "fruit_quantity": 681,
+            "dry_matter_percentage": 52,
+            "average_size": 26
+        },
+        {
+            "id": 6,
+            "bay_name": "Bay 1:0",
+            "x": 1,
+            "y": 0,
+            "fruit_quantity": 949,
+            "dry_matter_percentage": 43,
+            "average_size": 29
+        },
+        {
+            "id": 7,
+            "bay_name": "Bay 1:1",
+            "x": 1,
+            "y": 1,
+            "fruit_quantity": 615,
+            "dry_matter_percentage": 73,
+            "average_size": 32
+        },
+        {
+            "id": 8,
+            "bay_name": "Bay 1:2",
+            "x": 1,
+            "y": 2,
+            "fruit_quantity": 746,
+            "dry_matter_percentage": 75,
+            "average_size": 23
+        },
+        {
+            "id": 9,
+            "bay_name": "Bay 1:3",
+            "x": 1,
+            "y": 3,
+            "fruit_quantity": 817,
+            "dry_matter_percentage": 47,
+            "average_size": 26
+        },
+        {
+            "id": 10,
+            "bay_name": "Bay 1:4",
+            "x": 1,
+            "y": 4,
+            "fruit_quantity": 711,
+            "dry_matter_percentage": 55,
+            "average_size": 19
+        },
+        {
+            "id": 11,
+            "bay_name": "Bay 1:5",
+            "x": 1,
+            "y": 5,
+            "fruit_quantity": 813,
+            "dry_matter_percentage": 42,
+            "average_size": 23
+        },
+        {
+            "id": 12,
+            "bay_name": "Bay 2:0",
+            "x": 2,
+            "y": 0,
+            "fruit_quantity": 707,
+            "dry_matter_percentage": 67,
+            "average_size": 37
+        },
+        {
+            "id": 13,
+            "bay_name": "Bay 2:1",
+            "x": 2,
+            "y": 1,
+            "fruit_quantity": 875,
+            "dry_matter_percentage": 47,
+            "average_size": 22
+        },
+        {
+            "id": 14,
+            "bay_name": "Bay 2:2",
+            "x": 2,
+            "y": 2,
+            "fruit_quantity": 884,
+            "dry_matter_percentage": 89,
+            "average_size": 34
+        },
+        {
+            "id": 15,
+            "bay_name": "Bay 2:3",
+            "x": 2,
+            "y": 3,
+            "fruit_quantity": 643,
+            "dry_matter_percentage": 45,
+            "average_size": 31
+        },
+        {
+            "id": 16,
+            "bay_name": "Bay 2:4",
+            "x": 2,
+            "y": 4,
+            "fruit_quantity": 996,
+            "dry_matter_percentage": 46,
+            "average_size": 29
+        },
+        {
+            "id": 17,
+            "bay_name": "Bay 2:5",
+            "x": 2,
+            "y": 5,
+            "fruit_quantity": 613,
+            "dry_matter_percentage": 76,
+            "average_size": 38
+        },
+        {
+            "id": 18,
+            "bay_name": "Bay 3:0",
+            "x": 3,
+            "y": 0,
+            "fruit_quantity": 925,
+            "dry_matter_percentage": 72,
+            "average_size": 19
+        },
+        {
+            "id": 19,
+            "bay_name": "Bay 3:1",
+            "x": 3,
+            "y": 1,
+            "fruit_quantity": 649,
+            "dry_matter_percentage": 68,
+            "average_size": 35
+        },
+        {
+            "id": 20,
+            "bay_name": "Bay 3:2",
+            "x": 3,
+            "y": 2,
+            "fruit_quantity": 791,
+            "dry_matter_percentage": 43,
+            "average_size": 37
+        },
+        {
+            "id": 21,
+            "bay_name": "Bay 3:3",
+            "x": 3,
+            "y": 3,
+            "fruit_quantity": 981,
+            "dry_matter_percentage": 61,
+            "average_size": 33
+        },
+        {
+            "id": 22,
+            "bay_name": "Bay 3:4",
+            "x": 3,
+            "y": 4,
+            "fruit_quantity": 708,
+            "dry_matter_percentage": 84,
+            "average_size": 35
+        },
+        {
+            "id": 23,
+            "bay_name": "Bay 3:5",
+            "x": 3,
+            "y": 5,
+            "fruit_quantity": 917,
+            "dry_matter_percentage": 83,
+            "average_size": 20
+        }
+    ]
+}
